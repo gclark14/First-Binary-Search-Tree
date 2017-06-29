@@ -23,4 +23,9 @@ public class AdderTest {
         assertNull(adder.add(null, "foo"));
     }
 
+    @Test
+    public void add_should_concatenate_strings(){
+        assertThat(adder.add("foo","bar"), is("foobar"));
+    }
+
 }
