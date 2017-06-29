@@ -1,9 +1,11 @@
 package dna.rosalind;
 
 import org.junit.Test;
+import org.mockito.Mock;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
+import static org.mockito.Mockito.when;
 
 /**
  * Created by gabe.clark on 6/29/17.
