@@ -13,7 +13,7 @@ coverage:
   status:
     project:
     #basic
-    target: 100%
+    target: 75%
     threshold: null #Allow the coverage to drop by X%, and posting a success status
     base: auto
     #advanced
