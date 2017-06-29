@@ -19,6 +19,7 @@ public class AdderTest {
 
     @Test
     public void add_should_return_null_when_operand_is_null(){
+        assertNull(adder.add("foo", null));
         assertNull(adder.add(null, "foo"));
     }
 
