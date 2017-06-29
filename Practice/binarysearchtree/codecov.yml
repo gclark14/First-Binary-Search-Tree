@@ -5,15 +5,25 @@ codecov:
   notify:
     require_ci_to_pass: yes
 
+# target: { auto | number } where auto will use the coverage from the base commit
+# (pull request base or parent commit) coverage to compare against and number
+# is the specified target of exact coverage i.e. 75%, 100%, 90%
+#
 coverage:
-  precision: 2
-  round: down
-  range: "70...100"
-
   status:
-    project: yes
-    patch: yes
-    changes: no
+    project:
+    #basic
+    target: 100%
+    threshold: null #Allow the coverage to drop by X%, and posting a success status
+    base: auto
+    #advanced
+    branches: null
+    if_no_uploads: error
+    if_not_found: success
+    if_ci_failed: error
+    only_pulls: false
+    flags: null
+    paths: null
 
 parsers:
   gcov:
