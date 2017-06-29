@@ -9,6 +9,8 @@ public class Adder {
         return a + b;
     }
 
+    public double add(double a, double b){ return a + b; }
+
     public String add(String a, String b){
         if(a == null || b == null)
             return null;
