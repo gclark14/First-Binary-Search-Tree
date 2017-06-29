@@ -1,4 +1,4 @@
-package binarySearchTree;
+package dna.rosalind;
 
 import org.junit.Before;
 import org.junit.Test;

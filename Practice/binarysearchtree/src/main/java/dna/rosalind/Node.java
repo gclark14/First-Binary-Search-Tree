@@ -1,6 +1,6 @@
-package binarySearchTree;
+package dna.rosalind;
 
-import org.jetbrains.annotations.Nullable;
+
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -255,7 +255,6 @@ public class Node {
         }
     }
 
-    @Nullable
     private Node deleteNode_AddChildNodesWhenDeletingRoot(int key, ArrayList<Node> nodeList){
         Node n;
         if (this.left != null && this.left.data == key) {

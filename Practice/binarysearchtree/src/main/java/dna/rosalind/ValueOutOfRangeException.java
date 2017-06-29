@@ -1,4 +1,4 @@
-package binarySearchTree;
+package dna.rosalind;
 
 /**
  * Created by gabe.clark on 6/14/17.
