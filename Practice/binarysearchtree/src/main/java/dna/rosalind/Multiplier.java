@@ -11,5 +11,4 @@ public class Multiplier {
 
     double multiply(double a, double b, double c) { return a * b * c; }
 
-    double mutilply(int a, double d) { return a * d; }
 }
