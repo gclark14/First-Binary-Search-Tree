@@ -9,5 +9,6 @@ public class Multiplier {
 
     double multiply(double d, double b) { return d * b; }
 
+    double multiply(double a, double b, double c) { return a * b * c; }
 
 }
