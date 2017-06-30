@@ -9,6 +9,5 @@ public class Multiplier {
 
     double multiply(double d, double b) { return d * b; }
 
-    double multiply(int a, double d) { return a * d; }
 
 }
