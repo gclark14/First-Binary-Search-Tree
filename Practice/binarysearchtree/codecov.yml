@@ -12,11 +12,11 @@ codecov:
 coverage:
   status:
     project:
-    #basic
+    # basic
     target: 15%
     threshold: 5% #Allow the coverage to drop by X%, and posting a success status
     base: auto
-    #advanced
+    # advanced
     branches: null
     if_no_uploads: error
     if_not_found: success
