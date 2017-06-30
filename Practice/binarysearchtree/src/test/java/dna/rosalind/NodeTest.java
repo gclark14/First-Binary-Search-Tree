@@ -114,7 +114,6 @@ public class NodeTest {
         node.insert(25);
         node.insert(55);
         node.deleteNode(20);
-        node.printInOrder();
         assertFalse(node.contains(20));
     }
 
@@ -124,7 +123,6 @@ public class NodeTest {
         node.insert(20);
         node.insert(55);
         node.deleteNode(20);
-        node.printInOrder();
         assertFalse(node.contains(20));
     }
 
@@ -135,7 +133,6 @@ public class NodeTest {
         node.insert(275);
         node.insert(352);
         node.deleteNode(352);
-        node.printInOrder();
         assertFalse(node.contains(352));
     }
 
@@ -147,7 +144,6 @@ public class NodeTest {
         node.insert(275);
         node.insert(352);
         node.deleteNode(440);
-        node.printInOrder();
         assertFalse(node.contains(440));
     }
 
@@ -160,7 +156,6 @@ public class NodeTest {
         node.insert(15);
         node.insert(55);
         node.deleteNode(200); // 20 < 55 < 100 => 20 left of 100, 55 right of 20
-        node.printInOrder();
         assertFalse(node.contains(200));
     }
 
@@ -171,7 +166,6 @@ public class NodeTest {
         node.insert(44);
         node.insert(88);
         node = node.deleteNode(100);
-        node.printInOrder();
         assertFalse(node.contains(100));
     }
 
@@ -181,7 +175,6 @@ public class NodeTest {
         node.insert(55);
         node.insert(88);
         node = node.deleteNode(100);
-        node.printInOrder();
         assertFalse(node.contains(100));
     }
 
@@ -191,7 +184,6 @@ public class NodeTest {
         node.insert(44);
         node.insert(55);
         node = node.deleteNode(100);
-        node.printInOrder();
         assertFalse(node.contains(100));
     }
 
@@ -201,7 +193,6 @@ public class NodeTest {
         node.insert(55);
         node.insert(44);
         node = node.deleteNode(100);
-        node.printInOrder();
         assertFalse(node.contains(100));
     }
     // End nodes less than root tree formations
@@ -213,7 +204,6 @@ public class NodeTest {
         node.insert(440);
         node.insert(880);
         node = node.deleteNode(100);
-        node.printInOrder();
         assertFalse(node.contains(100));
     }
 
@@ -223,7 +213,6 @@ public class NodeTest {
         node.insert(550);
         node.insert(880);
         node = node.deleteNode(100);
-        node.printInOrder();
         assertFalse(node.contains(100));
     }
 
@@ -233,7 +222,6 @@ public class NodeTest {
         node.insert(440);
         node.insert(550);
         node = node.deleteNode(100);
-        node.printInOrder();
         assertFalse(node.contains(100));
     }
 
@@ -243,7 +231,6 @@ public class NodeTest {
         node.insert(550);
         node.insert(440);
         node = node.deleteNode(100);
-        node.printInOrder();
         assertFalse(node.contains(100));
     }
     // End nodes greater than root tree formations
