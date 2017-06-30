@@ -24,10 +24,5 @@ public class MultiplierTest {
     @Test
     public void multiply_should_return_product_given_three_real_numbers(){
         assertThat(multiplier.multiply(1.0,1.0,2.0), is(2.0));
-    }
-
-    @Test
-    public void multiply_should_return_product_given_integer_and_double(){
-        assertThat(multiplier.mutilply(2,3.0), is(6.0));
     }*/
 }
