@@ -1,0 +1,4 @@
+test:
+    post:
+        - if [ -e ./gradlew ]; then ./gradlew jacocoTestReport;else gradle jacocoTestReport;fi
+        - bash <(curl -s https://codecov.io/bash) -t 5fb14bbc-3fcf-4a1e-b86b-527a196ed6c5 #uuid for Codecov upload
